@@ -6,6 +6,8 @@
 #container{
 	width: 960px;
 	margin: 0px auto;
+	background-color: orange;
+
 }
 /*header*/
 #header{
@@ -49,3 +51,35 @@
 	color: grey;
 }
 /*end of header*/
+#main_content{
+	padding: 10px 20px;
+}
+#main_content img{
+	border: .25em solid white;
+}
+#main_content img, #about{
+	display: inline-block;
+	vertical-align: top;
+}
+#about{
+	margin-left: 10px;
+	height:263px;
+	width: 520px;
+	background-color: #3e3e3e;
+}
+#about h4{
+	font-size: .8em;
+	margin: 10px 18px;
+	color: white;
+}
+.header{
+	font-size: .8em;
+	background-color: #fbcc33;
+	padding: 8px 10px;
+}
+
+#about p{
+	margin: 18px;
+	font-size: .7em;
+	color: white;
+}
