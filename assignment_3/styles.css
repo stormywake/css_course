@@ -6,6 +6,13 @@
 h1{
 	font-size: 1.5em;
 }
+h1,h2,h3,h4,h5,h6{
+	color: #962a1e;
+	margin-bottom: 15px;
+}
+a{
+	color: #962a1e;
+}
 #container{
 	width: 960px;
 	margin:0px auto;
@@ -13,6 +20,7 @@ h1{
 /*header style*/
 #header{
 	position: relative;
+	margin-bottom: 20px;
 }
 #header_top{
 	padding: 5px 40px;
@@ -55,6 +63,7 @@ h1{
 	text-decoration: none;
 	color: #d19c40;
 }
+
 #donate li:before{
     content: " | ";
     padding: 0px 2px;
@@ -80,8 +89,9 @@ h1{
 	padding: 5px 40px;
 }
 #header_bottom li{
-	color: grey;
 	font-size: .9em;
+		color: grey;
+
 }
 #header_bottom li:after{
     content: "|";
@@ -89,5 +99,43 @@ h1{
 }
 #header_bottom li:last-child:after{
 	content: "";
+}
+#header_bottom a{
+	text-decoration: none;
+	color: grey;
+}
+
+/*end of header*/
+#side_bar{
+	width: 170px;
+	background-color: #eeeeee;
+	padding: 15px 10px;
+	border: .1em solid lightgrey;
+}
+#side_bar ul{
+	margin-left: 30px;
+}
+
+/*end of side bar*/
+#side_bar, #main_content{
+	display: inline-block;
+	vertical-align: top;
+}
+#main_content{
+	width: 700px;
+	padding:0px 15px;
+}
+#main_content ul, #main_content ol{
+	margin-left: 45px;
+}
+#main_content p, #main_content ul, #main_content ol{
+	margin-bottom: 15px;
+}
+.bold{
+	font-weight: bold;
+}
+.main_content_section{
+	border-bottom: .1em solid black;
+	margin-bottom: 10px;
 }
 
